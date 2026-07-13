@@ -13,8 +13,8 @@
     "eyebrow": "Applied AI · AI Operations · Prototype-to-production",
     "firstName": "Ksenia",
     "lastName": "Isidorova",
-    "introBefore": "I turn AI experiments into ",
-    "introStrong": "working systems for real teams",
+    "introBefore": "I build custom AI solutions and integrate them into",
+    "introStrong": "the real workflows",
     "introAfter": " — from use-case discovery and rapid prototyping to integration, onboarding, support and continuous improvement.",
     "toolLine": "Building with Codex, Claude Code, agents, APIs and automation workflows.",
     "primaryButton": "Explore my work",
@@ -30,12 +30,12 @@
     "index": "01 / Profile",
     "kicker": "Broad AI expertise. Deep technical foundation.",
     "headingBefore": "I make complex AI capabilities ",
-    "headingEmphasis": "useful, repeatable",
+    "headingEmphasis": "smart, useful, user-friendly,",
     "headingAfter": " and ready for adoption.",
     "paragraphs": [
-      "I work at the intersection of applied AI, product thinking and technical delivery. My background combines production experience in global game companies, custom AI work, cultural AI initiatives and internal workflow automation.",
-      "I take AI work beyond the experiment stage: framing the problem, choosing the right tools, building prototypes, testing with real users, documenting the process, setting up team workflows and improving the system after launch.",
-      "I am especially interested in AI operations: the practical layer where models, agents, automations, documentation and people have to work together."
+      "I work at the intersection of applied AI, product thinking and technical delivery. My background combines production experience in global game companies, SMEs and AI startups.",
+      "I take AI work beyond the experiment stage: Performing an AI audit, framing the problems, discovering actual solutions, building prototypes and final builds, testing with real workflows, documenting the process, setting up team pipelines and guides and testing&improving the system after launch.",
+      "I am especially interested in complex AI systems that help professionals reducing their time spent on repetitive, boring day-to-day tasks and make more room for creative work."
     ]
   },
   "impactSection": {
@@ -87,14 +87,14 @@
   ],
   "workSection": {
     "index": "04 / Selected work",
-    "headingBefore": "AI systems that teams can ",
-    "headingEmphasis": "actually use",
-    "description": "Production systems, internal tools and product experiments — designed around real workflows, not a fashionable model."
+    "headingBefore": "AI systems that teams can actually use",
+    "headingEmphasis": "in their real workflows",
+    "description": "Multi-agentic systems, internal chat-bots and tools — designed around real workflows and set up for real users, with post-integration support and personalized usage guides&presentations."
   },
   "projects": [
     {
       "number": "01",
-      "title": "Production AI Systems",
+      "title": "Game development Applied AI solutions",
       "type": "Enterprise R&D · Glera Games / Vizor Apps",
       "summary": "Full-cycle AI systems for production teams: use-case research, dataset strategy, model training, evaluation, workflow design, environment setup, documentation, onboarding and post-delivery support. The focus is not only model quality, but whether the system can be used, repeated and improved by the team.",
       "tags": [
