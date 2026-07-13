@@ -1,0 +1,167 @@
+{
+  "seo": {
+    "title": "Ksenia Isidorova — Applied AI Specialist",
+    "description": "Applied AI specialist delivering full-cycle AI R&D: research, custom development, integration, testing, technical documentation and support for companies, small teams and cultural initiatives."
+  },
+  "navigation": {
+    "work": "Work",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Applied AI specialist · End-to-end R&D",
+    "firstName": "Ksenia",
+    "lastName": "Isidorova",
+    "introBefore": "I research, design and deliver ",
+    "introStrong": "applied AI solutions",
+    "introAfter": "—from the first use-case hypothesis to development, integration, testing, documentation and long-term support.",
+    "primaryButton": "Explore my work",
+    "cvButton": "Download CV",
+    "cvFile": "/Ksenia-Isidorova-CV.pdf",
+    "portrait": "/ksenia-isidorova.jpg",
+    "portraitAlt": "Portrait of Ksenia Isidorova",
+    "location": "Based in Europe",
+    "availability": "Open to ambitious AI work",
+    "scrollLabel": "Scroll to discover"
+  },
+  "profile": {
+    "index": "01 / Profile",
+    "kicker": "Broad AI expertise. Deep technical foundation.",
+    "headingBefore": "I turn complex AI capabilities into ",
+    "headingEmphasis": "useful, reliable",
+    "headingAfter": " products and systems.",
+    "paragraphs": [
+      "I have delivered in very different environments: global game companies including Playrix, Kwalee and Glera Games; small independent teams; custom client work; and AI expertise for cultural heritage initiatives.",
+      "My role spans the complete solution lifecycle: problem framing, technology research, prototyping, development, integration, evaluation, testing, technical documentation, training and post-launch support."
+    ]
+  },
+  "workSection": {
+    "index": "02 / Selected work",
+    "headingBefore": "Applied AI in ",
+    "headingEmphasis": "different contexts",
+    "description": "From enterprise production to education and cultural heritage—each solution starts with the real problem, not a fashionable model."
+  },
+  "projects": [
+    {
+      "number": "01",
+      "title": "Reading Mentor",
+      "type": "Applied conversational AI · 2026",
+      "summary": "An end-to-end multilingual voice product that turns any TXT or EPUB book into an interactive learning experience. The system follows reading progress, understands mixed-language speech, explains words in context, creates a personal vocabulary, and gives careful pronunciation feedback.",
+      "tags": ["Gemini Live", "Voice AI", "Tool calling", "Product development"],
+      "accent": "violet",
+      "image": ""
+    },
+    {
+      "number": "02",
+      "title": "Metaheads AI",
+      "type": "Independent applied AI project",
+      "summary": "A custom AI initiative developed from exploration to a working system: defining the use case, selecting and testing approaches, shaping the product logic, and building repeatable workflows around generative models.",
+      "tags": ["AI R&D", "Custom solution", "Generative AI", "Workflow design"],
+      "accent": "cyan",
+      "image": ""
+    },
+    {
+      "number": "03",
+      "title": "Cultural Heritage AI",
+      "type": "AI expertise for cultural projects",
+      "summary": "Applied AI expertise for cultural heritage work, where source quality, context and responsible interpretation matter as much as model capability. The work connects research, structured data, human review and practical delivery for a specialist team.",
+      "tags": ["Research", "Knowledge workflows", "Human-in-the-loop", "Validation"],
+      "accent": "coral",
+      "image": ""
+    },
+    {
+      "number": "04",
+      "title": "Production AI Systems",
+      "type": "Enterprise R&D · Glera Games",
+      "summary": "Full-cycle AI solutions for production teams: technology research, dataset design, model training, evaluation, cloud workflows, integration guidance and ongoing support. Each solution is delivered with documentation, repeatable pipelines and clear ownership for the teams using it.",
+      "tags": ["Stable Diffusion", "LoRA", "Custom GPTs", "MLOps", "Documentation"],
+      "accent": "violet",
+      "image": ""
+    }
+  ],
+  "experienceSection": {
+    "index": "03 / Experience",
+    "headingBefore": "From global products to ",
+    "headingEmphasis": "small expert teams"
+  },
+  "experience": [
+    {
+      "years": "2024 — now",
+      "role": "AI Art Researcher · Generative AI Specialist",
+      "company": "Glera Games",
+      "text": "Owning full-cycle AI R&D: researching technologies and use cases, designing datasets, developing and evaluating models and custom GPT tools, integrating solutions into production, documenting them, and supporting teams after delivery."
+    },
+    {
+      "years": "2023 — 2024",
+      "role": "Technical Artist",
+      "company": "Kwalee · Lisbon",
+      "text": "Led technical delivery for a Unity and INK product across content systems, UI, animation and VFX. Built C# and Python tools, worked with programmers and artists, improved cross-team workflows, and maintained implementation documentation."
+    },
+    {
+      "years": "2021 — 2023",
+      "role": "Technical Artist",
+      "company": "Playrix / VOKI Games · Kyiv",
+      "text": "Shipped two large-scale free-to-play products, automated production tasks, debugged and optimised complex content systems, led feature implementation, and raised the department’s technical proficiency through training and mentorship."
+    },
+    {
+      "years": "2020 — 2022",
+      "role": "Freelance Lead Artist",
+      "company": "Independent game projects",
+      "text": "Worked directly with small teams and varied clients, translating open-ended needs into practical technical and creative solutions. Led delivery from initial concept through implementation, iteration and production support."
+    }
+  ],
+  "skillsSection": {
+    "index": "04 / Capabilities",
+    "heading": "Full-cycle AI R&D.",
+    "headingEmphasis": "Technical depth."
+  },
+  "skills": [
+    {
+      "title": "Applied AI & GenAI",
+      "items": ["LLM applications", "Conversational + Voice AI", "Multimodal workflows", "Stable Diffusion", "SDXL", "FLUX", "LoRA", "DreamBooth", "ControlNet"]
+    },
+    {
+      "title": "Full-cycle AI R&D",
+      "items": ["Use-case discovery", "Technology research", "Solution architecture", "Rapid prototyping", "Evaluation + QA", "Integration", "Support + iteration", "Technical documentation"]
+    },
+    {
+      "title": "Engineering & Operations",
+      "items": ["Python", "C#", "API integration", "Custom GPTs", "TensorBoard", "RunPod", "S3 + rclone", "Git", "Automation", "Data pipelines"]
+    },
+    {
+      "title": "Product & Technical Art",
+      "items": ["Unity", "Shaders", "VFX", "INK", "UI/UX", "Asset optimisation", "Photoshop", "Illustrator", "After Effects", "Blender"]
+    }
+  ],
+  "education": {
+    "label": "Education",
+    "degree": "Bachelor of Fine Arts",
+    "school": "Southern Ukrainian National Pedagogical University, Odesa",
+    "years": "2018 — 2022"
+  },
+  "furtherLearning": {
+    "label": "Further learning",
+    "text": "Automation with Python · Motion Design · Illustration · Brand Identity · 2D Platformer Development with Unity"
+  },
+  "languages": {
+    "label": "Languages",
+    "items": [
+      { "language": "Ukrainian", "level": "Native" },
+      { "language": "Russian", "level": "Native" },
+      { "language": "English", "level": "Professional" },
+      { "language": "Portuguese", "level": "Basic" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Research · Build · Integrate · Support",
+    "headingLine": "Need an AI solution",
+    "headingBefore": "that works? ",
+    "headingEmphasis": "Let’s talk.",
+    "email": "kseniia.is.upark@gmail.com",
+    "location": "Odesa, Ukraine / Lisbon, Portugal",
+    "phoneDisplay": "+380 98 544 73 63",
+    "phoneLink": "+380985447363",
+    "copyrightName": "Ksenia Isidorova"
+  }
+}

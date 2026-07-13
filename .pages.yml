@@ -1,0 +1,210 @@
+media:
+  - name: images
+    label: Изображения
+    input: public
+    output: /
+    extensions: [jpg, jpeg, png, webp, gif]
+    rename: safe
+  - name: documents
+    label: Документы
+    input: public
+    output: /
+    extensions: [pdf]
+    rename: safe
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      update: "content: update portfolio via Pages CMS"
+
+content:
+  - name: site
+    label: Содержимое сайта
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: seo
+        label: Название сайта и поисковое описание
+        type: object
+        fields:
+          - { name: title, label: Название вкладки, type: string, required: true }
+          - { name: description, label: Описание сайта, type: text, required: true }
+
+      - name: navigation
+        label: Верхнее меню
+        type: object
+        fields:
+          - { name: work, label: Проекты, type: string, required: true }
+          - { name: experience, label: Опыт, type: string, required: true }
+          - { name: skills, label: Навыки, type: string, required: true }
+          - { name: contact, label: Контакты, type: string, required: true }
+
+      - name: hero
+        label: Первый экран
+        type: object
+        fields:
+          - { name: eyebrow, label: Верхняя подпись, type: string, required: true }
+          - { name: firstName, label: Имя, type: string, required: true }
+          - { name: lastName, label: Фамилия, type: string, required: true }
+          - { name: introBefore, label: Текст до жирной части, type: text, required: true }
+          - { name: introStrong, label: Жирная часть, type: string, required: true }
+          - { name: introAfter, label: Текст после жирной части, type: text, required: true }
+          - { name: primaryButton, label: Кнопка проектов, type: string, required: true }
+          - { name: cvButton, label: Кнопка PDF, type: string, required: true }
+          - name: cvFile
+            label: PDF резюме
+            type: file
+            required: true
+            options: { media: documents, extensions: [pdf] }
+          - name: portrait
+            label: Портрет
+            type: image
+            required: true
+            options: { media: images }
+          - { name: portraitAlt, label: Описание портрета, type: string, required: true }
+          - { name: location, label: Местоположение, type: string, required: true }
+          - { name: availability, label: Статус доступности, type: string, required: true }
+          - { name: scrollLabel, label: Подсказка прокрутки, type: string, required: true }
+
+      - name: profile
+        label: Профиль
+        type: object
+        fields:
+          - { name: index, label: Номер и название секции, type: string, required: true }
+          - { name: kicker, label: Короткий тезис, type: string, required: true }
+          - { name: headingBefore, label: Заголовок до курсивной части, type: string, required: true }
+          - { name: headingEmphasis, label: Курсивная часть, type: string, required: true }
+          - { name: headingAfter, label: Заголовок после курсивной части, type: string, required: true }
+          - name: paragraphs
+            label: Абзацы профиля
+            type: text
+            list: true
+            required: true
+
+      - name: workSection
+        label: Заголовок секции проектов
+        type: object
+        fields:
+          - { name: index, label: Номер и название секции, type: string, required: true }
+          - { name: headingBefore, label: Заголовок до курсивной части, type: string, required: true }
+          - { name: headingEmphasis, label: Курсивная часть, type: string, required: true }
+          - { name: description, label: Описание секции, type: text, required: true }
+
+      - name: projects
+        label: Проекты
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{number} — {title}"
+        fields:
+          - { name: number, label: Номер, type: string, required: true }
+          - { name: title, label: Название, type: string, required: true }
+          - { name: type, label: Тип и год, type: string, required: true }
+          - { name: summary, label: Описание, type: text, required: true }
+          - { name: tags, label: Технологии и теги, type: string, list: true, required: true }
+          - name: accent
+            label: Цвет карточки
+            type: select
+            required: true
+            options:
+              values: [violet, cyan, coral]
+          - name: image
+            label: Изображение проекта (необязательно)
+            type: image
+            required: false
+            options: { media: images }
+
+      - name: experienceSection
+        label: Заголовок секции опыта
+        type: object
+        fields:
+          - { name: index, label: Номер и название секции, type: string, required: true }
+          - { name: headingBefore, label: Заголовок до курсивной части, type: string, required: true }
+          - { name: headingEmphasis, label: Курсивная часть, type: string, required: true }
+
+      - name: experience
+        label: Опыт работы
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{years} — {company}"
+        fields:
+          - { name: years, label: Период, type: string, required: true }
+          - { name: role, label: Должность, type: string, required: true }
+          - { name: company, label: Компания, type: string, required: true }
+          - { name: text, label: Описание, type: text, required: true }
+
+      - name: skillsSection
+        label: Заголовок секции навыков
+        type: object
+        fields:
+          - { name: index, label: Номер и название секции, type: string, required: true }
+          - { name: heading, label: Первая строка, type: string, required: true }
+          - { name: headingEmphasis, label: Курсивная строка, type: string, required: true }
+
+      - name: skills
+        label: Группы навыков
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: title, label: Название группы, type: string, required: true }
+          - { name: items, label: Навыки, type: string, list: true, required: true }
+
+      - name: education
+        label: Образование
+        type: object
+        fields:
+          - { name: label, label: Название блока, type: string, required: true }
+          - { name: degree, label: Степень, type: string, required: true }
+          - { name: school, label: Учебное заведение, type: text, required: true }
+          - { name: years, label: Годы, type: string, required: true }
+
+      - name: furtherLearning
+        label: Дополнительное обучение
+        type: object
+        fields:
+          - { name: label, label: Название блока, type: string, required: true }
+          - { name: text, label: Курсы и направления, type: text, required: true }
+
+      - name: languages
+        label: Языки
+        type: object
+        fields:
+          - { name: label, label: Название блока, type: string, required: true }
+          - name: items
+            label: Список языков
+            type: object
+            list:
+              min: 1
+              collapsible:
+                collapsed: true
+                summary: "{language} — {level}"
+            fields:
+              - { name: language, label: Язык, type: string, required: true }
+              - { name: level, label: Уровень, type: string, required: true }
+
+      - name: contact
+        label: Контакты и подвал
+        type: object
+        fields:
+          - { name: eyebrow, label: Верхняя подпись, type: string, required: true }
+          - { name: headingLine, label: Первая строка заголовка, type: string, required: true }
+          - { name: headingBefore, label: Вторая строка до курсива, type: string, required: true }
+          - { name: headingEmphasis, label: Курсивная часть, type: string, required: true }
+          - { name: email, label: Email, type: string, required: true }
+          - { name: location, label: Местоположение, type: string, required: true }
+          - { name: phoneDisplay, label: Телефон на сайте, type: string, required: true }
+          - { name: phoneLink, label: Телефон для ссылки, type: string, required: true }
+          - { name: copyrightName, label: Имя в копирайте, type: string, required: true }

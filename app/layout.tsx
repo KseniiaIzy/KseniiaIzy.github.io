@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Manrope, Syne } from "next/font/google";
 import "./globals.css";
+import content from "@/content/site.json";
 
 const manrope = Manrope({ variable: "--font-manrope", subsets: ["latin"] });
 const syne = Syne({ variable: "--font-syne", subsets: ["latin"] });
 
-const title = "Ksenia Isidorova — Applied AI Specialist";
-const description = "Applied AI specialist delivering full-cycle AI R&D: research, custom development, integration, testing, technical documentation and support for companies, small teams and cultural initiatives.";
+const { title, description } = content.seo;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kseniiaizy.github.io"),

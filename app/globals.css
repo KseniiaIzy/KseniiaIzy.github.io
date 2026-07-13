@@ -96,6 +96,7 @@ main { position: relative; overflow: hidden; }
 .project-body { align-self: center; position: relative; z-index: 2; }
 .project-type { color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 .project-body h3 { margin: 12px 0 19px; font: 500 clamp(34px, 4.4vw, 64px)/1 var(--font-syne), sans-serif; letter-spacing: -.05em; }
+.project-image { width: min(100%, 680px); max-height: 360px; margin: 0 0 24px; display: block; object-fit: cover; border: 1px solid var(--line); border-radius: 18px; }
 .project-body > p:not(.project-type) { max-width: 680px; color: #b2acc3; font-size: 15px; line-height: 1.7; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
 .tags span { padding: 7px 12px; color: #c8c3d7; border: 1px solid var(--line); border-radius: 99px; font-size: 10px; }
