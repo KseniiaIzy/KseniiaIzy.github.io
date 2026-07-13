@@ -37,6 +37,13 @@ export default function Home() {
     contact,
   } = content;
 
+  const projectsWithOptionalImages = projects as Array<
+    (typeof projects)[number] & { image?: string }
+  >;
+  const experienceWithOptionalFocus = experience as Array<
+    (typeof experience)[number] & { focus?: string }
+  >;
+
   return (
     <main>
       <div className="noise" aria-hidden="true" />
@@ -134,7 +141,7 @@ export default function Home() {
           <p>{workSection.description}</p>
         </div>
         <div className="project-list">
-          {projects.map((project) => (
+          {projectsWithOptionalImages.map((project) => (
             <article className={`project-card ${project.accent}`} key={`${project.number}-${project.title}`} data-reveal>
               <div className="project-number">{project.number}</div>
               <div className="project-body">
@@ -156,7 +163,7 @@ export default function Home() {
           <h2>{experienceSection.headingBefore}<em>{experienceSection.headingEmphasis}</em></h2>
         </div>
         <div className="timeline">
-          {experience.map((item) => (
+          {experienceWithOptionalFocus.map((item) => (
             <article className="timeline-item" key={`${item.company}-${item.years}`} data-reveal>
               <div className="timeline-years">{item.years}</div>
               <div className="timeline-role"><h3>{item.role}</h3><p>{item.company}</p></div>
