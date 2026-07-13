@@ -11,8 +11,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:3000";
   const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.startsWith("localhost") ? "http" : "https");
   const metadataBase = new URL(`${protocol}://${host}`);
-  const title = "Ksenia Isidorova — AI Specialist & Technical Artist";
-  const description = "Portfolio of Ksenia Isidorova, an AI specialist and technical artist building generative models, creative workflows, and production-ready AI systems.";
+  const title = "Ksenia Isidorova — Applied AI Specialist";
+  const description = "Applied AI specialist delivering full-cycle AI R&D: research, custom development, integration, testing, technical documentation and support for companies, small teams and cultural initiatives.";
 
   return {
     metadataBase,

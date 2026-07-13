@@ -5,30 +5,39 @@ import { useEffect, useState } from "react";
 const projects = [
   {
     number: "01",
-    title: "Metaheads AI",
-    type: "Independent AI project",
+    title: "Reading Mentor",
+    type: "Applied conversational AI · 2026",
     summary:
-      "A creative AI initiative exploring identity-led visual worlds and repeatable generative production. I shape the visual direction, curate outputs, and turn experiments into practical workflows.",
-    tags: ["Creative AI", "Visual R&D", "Generative systems"],
+      "An end-to-end multilingual voice product that turns any TXT or EPUB book into an interactive learning experience. The system follows reading progress, understands mixed-language speech, explains words in context, creates a personal vocabulary, and gives careful pronunciation feedback.",
+    tags: ["Gemini Live", "Voice AI", "Tool calling", "Product development"],
     accent: "violet",
   },
   {
     number: "02",
-    title: "Reading Mentor",
-    type: "AI learning product · 2026",
+    title: "Metaheads AI",
+    type: "Independent applied AI project",
     summary:
-      "A multilingual voice companion for reading English books. It imports TXT and EPUB locally, follows reading progress, explains words in context, creates vocabulary cards, and gives gentle pronunciation guidance.",
-    tags: ["Gemini Live", "Voice UX", "Product prototyping"],
+      "A custom AI initiative developed from exploration to a working system: defining the use case, selecting and testing approaches, shaping the product logic, and building repeatable workflows around generative models.",
+    tags: ["AI R&D", "Custom solution", "Generative AI", "Workflow design"],
     accent: "cyan",
   },
   {
     number: "03",
-    title: "Production AI Systems",
-    type: "Applied research · Glera Games",
+    title: "Cultural Heritage AI",
+    type: "AI expertise for cultural projects",
     summary:
-      "Custom Stable Diffusion, LoRA, DreamBooth and GPT workflows delivered as documented, art-team-ready systems—from curated datasets and training analysis to cloud storage and integration guidance.",
-    tags: ["Stable Diffusion", "LoRA", "Workflow design"],
+      "Applied AI expertise for cultural heritage work, where source quality, context and responsible interpretation matter as much as model capability. The work connects research, structured data, human review and practical delivery for a specialist team.",
+    tags: ["Research", "Knowledge workflows", "Human-in-the-loop", "Validation"],
     accent: "coral",
+  },
+  {
+    number: "04",
+    title: "Production AI Systems",
+    type: "Enterprise R&D · Glera Games",
+    summary:
+      "Full-cycle AI solutions for production teams: technology research, dataset design, model training, evaluation, cloud workflows, integration guidance and ongoing support. Each solution is delivered with documentation, repeatable pipelines and clear ownership for the teams using it.",
+    tags: ["Stable Diffusion", "LoRA", "Custom GPTs", "MLOps", "Documentation"],
+    accent: "violet",
   },
 ];
 
@@ -37,44 +46,44 @@ const experience = [
     years: "2024 — now",
     role: "AI Art Researcher · Generative AI Specialist",
     company: "Glera Games",
-    text: "Researching new AI capabilities, curating training datasets, developing LoRA and DreamBooth models, analysing training performance, and delivering complete model packages and documentation to production art teams.",
+    text: "Owning full-cycle AI R&D: researching technologies and use cases, designing datasets, developing and evaluating models and custom GPT tools, integrating solutions into production, documenting them, and supporting teams after delivery.",
   },
   {
     years: "2023 — 2024",
     role: "Technical Artist",
     company: "Kwalee · Lisbon",
-    text: "Owned chapter building for a Unity and INK interactive story, implemented its visual language, UI, animation and VFX, built C# and Python tools, and improved cross-discipline production workflows.",
+    text: "Led technical delivery for a Unity and INK product across content systems, UI, animation and VFX. Built C# and Python tools, worked with programmers and artists, improved cross-team workflows, and maintained implementation documentation.",
   },
   {
     years: "2021 — 2023",
     role: "Technical Artist",
     company: "Playrix / VOKI Games · Kyiv",
-    text: "Shipped two major free-to-play mobile projects, automated art tasks, led technical animation and feature implementation, and raised the department’s technical proficiency through training and mentorship.",
+    text: "Shipped two large-scale free-to-play products, automated production tasks, debugged and optimised complex content systems, led feature implementation, and raised the department’s technical proficiency through training and mentorship.",
   },
   {
     years: "2020 — 2022",
     role: "Freelance Lead Artist",
     company: "Independent game projects",
-    text: "Led end-to-end art production for tower defence, real-time strategy, platformer and runner projects—from early concepts to environments, animation, UI and production-ready assets.",
+    text: "Worked directly with small teams and varied clients, translating open-ended needs into practical technical and creative solutions. Led delivery from initial concept through implementation, iteration and production support.",
   },
 ];
 
 const skills = [
   {
-    title: "Generative AI",
-    items: ["Stable Diffusion", "SDXL", "FLUX", "LoRA", "DreamBooth", "ControlNet", "Kohya_ss", "OneTrainer"],
+    title: "Applied AI & GenAI",
+    items: ["LLM applications", "Conversational + Voice AI", "Multimodal workflows", "Stable Diffusion", "SDXL", "FLUX", "LoRA", "DreamBooth", "ControlNet"],
   },
   {
-    title: "AI Operations",
-    items: ["Dataset curation", "Model evaluation", "TensorBoard", "RunPod", "S3 + rclone", "Custom GPTs", "Technical documentation"],
+    title: "Full-cycle AI R&D",
+    items: ["Use-case discovery", "Technology research", "Solution architecture", "Rapid prototyping", "Evaluation + QA", "Integration", "Support + iteration", "Technical documentation"],
   },
   {
-    title: "Technical Art",
-    items: ["Unity", "C#", "Python", "Shaders", "VFX", "Spine", "Cinemachine", "Asset optimisation", "INK"],
+    title: "Engineering & Operations",
+    items: ["Python", "C#", "API integration", "Custom GPTs", "TensorBoard", "RunPod", "S3 + rclone", "Git", "Automation", "Data pipelines"],
   },
   {
-    title: "Visual Toolkit",
-    items: ["Photoshop", "Illustrator", "After Effects", "Blender", "Cinema 4D", "UI/UX", "Motion design"],
+    title: "Product & Technical Art",
+    items: ["Unity", "Shaders", "VFX", "INK", "UI/UX", "Asset optimisation", "Photoshop", "Illustrator", "After Effects", "Blender"],
   },
 ];
 
@@ -114,10 +123,10 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy" data-reveal>
-          <p className="eyebrow"><span /> AI specialist · Technical artist</p>
+          <p className="eyebrow"><span /> Applied AI specialist · End-to-end R&D</p>
           <h1>Ksenia<br /><em>Isidorova</em></h1>
           <p className="hero-intro">
-            I build the bridge between <strong>generative AI</strong> and creative production—training models, designing workflows, and turning emerging technology into tools artists can actually use.
+            I research, design and deliver <strong>applied AI solutions</strong>—from the first use-case hypothesis to development, integration, testing, documentation and long-term support.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#work">Explore my work <span>↘</span></a>
@@ -142,11 +151,11 @@ export default function Home() {
       <section className="profile section-shell" id="profile" data-reveal>
         <div className="section-index">01 / Profile</div>
         <div className="profile-statement">
-          <p className="statement-kicker">Art intuition. Technical discipline.</p>
-          <h2>I make complex AI systems feel <em>clear, useful</em> and production-ready.</h2>
+          <p className="statement-kicker">Broad AI expertise. Deep technical foundation.</p>
+          <h2>I turn complex AI capabilities into <em>useful, reliable</em> products and systems.</h2>
           <div className="profile-grid">
-            <p>My focus is generative neural networks, dataset curation, model fine-tuning and AI-assisted content creation for mobile game assets, CG scenes and illustration.</p>
-            <p>I combine visual evaluation with loss tracking, debugging and workflow automation—then package the result with the guidance teams need to use it confidently.</p>
+            <p>I have delivered in very different environments: global game companies including Playrix, Kwalee and Glera Games; small independent teams; custom client work; and AI expertise for cultural heritage initiatives.</p>
+            <p>My role spans the complete solution lifecycle: problem framing, technology research, prototyping, development, integration, evaluation, testing, technical documentation, training and post-launch support.</p>
           </div>
         </div>
       </section>
@@ -154,8 +163,8 @@ export default function Home() {
       <section className="work section-shell" id="work">
         <div className="section-heading" data-reveal>
           <div className="section-index">02 / Selected work</div>
-          <h2>Recent <em>AI projects</em></h2>
-          <p>Research becomes valuable when it survives contact with real users, teams and production constraints.</p>
+          <h2>Applied AI in <em>different contexts</em></h2>
+          <p>From enterprise production to education and cultural heritage—each solution starts with the real problem, not a fashionable model.</p>
         </div>
         <div className="project-list">
           {projects.map((project) => (
@@ -176,7 +185,7 @@ export default function Home() {
       <section className="experience section-shell" id="experience">
         <div className="section-heading compact" data-reveal>
           <div className="section-index">03 / Experience</div>
-          <h2>A career at the intersection of <em>art + systems</em></h2>
+          <h2>From global products to <em>small expert teams</em></h2>
         </div>
         <div className="timeline">
           {experience.map((item) => (
@@ -192,7 +201,7 @@ export default function Home() {
       <section className="skills section-shell" id="skills">
         <div className="section-heading" data-reveal>
           <div className="section-index">04 / Capabilities</div>
-          <h2>Creative range.<br /><em>Technical depth.</em></h2>
+          <h2>Full-cycle AI R&D.<br /><em>Technical depth.</em></h2>
         </div>
         <div className="skill-grid">
           {skills.map((group, index) => (
@@ -226,8 +235,8 @@ export default function Home() {
 
       <footer id="contact">
         <div className="footer-glow" aria-hidden="true" />
-        <p className="eyebrow"><span /> Let’s create something useful</p>
-        <h2>Have an ambitious<br />AI idea? <em>Let’s talk.</em></h2>
+        <p className="eyebrow"><span /> Research · Build · Integrate · Support</p>
+        <h2>Need an AI solution<br />that works? <em>Let’s talk.</em></h2>
         <a className="contact-link" href="mailto:kseniia.is.upark@gmail.com">kseniia.is.upark@gmail.com <span>↗</span></a>
         <div className="footer-meta">
           <span>Odesa, Ukraine / Lisbon, Portugal</span>
