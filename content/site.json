@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Ksenia Isidorova — Applied AI & AI Operations Specialist",
-    "description": "Applied AI and AI Operations specialist turning AI experiments into reliable systems for real teams — from discovery and prototyping to integration, onboarding and continuous improvement."
+    "description": "Applied AI engineer that builds custom AI solutions around real workflows — from research and prototyping to testing, integration and continuous improvement."
   },
   "navigation": {
     "work": "Work",
@@ -97,45 +97,66 @@
       "title": "Production AI Systems",
       "type": "Enterprise R&D · Glera Games / Vizor Apps",
       "summary": "Full-cycle AI systems for production teams: use-case research, dataset strategy, model training, evaluation, workflow design, environment setup, documentation, onboarding and post-delivery support. The focus is not only model quality, but whether the system can be used, repeated and improved by the team.",
-      "tags": ["AI Operations", "Model Training", "Workflow Design", "Team Enablement"],
-      "accent": "violet",
-      "image": ""
+      "tags": [
+        "AI Operations",
+        "Model Training",
+        "Workflow Design",
+        "Team Enablement"
+      ],
+      "accent": "violet"
     },
     {
       "number": "02",
       "title": "Internal AI Automation & Assistants",
       "type": "Operational tools · Team workflows",
       "summary": "Internal AI tools for operational teams: n8n workflows, multi-agent automations, Slack-integrated assistants and department-specific ChatGPT and Gemini bots for analytics, research, documentation and daily workflows. Built around practical team needs, fast prototyping, testing and iteration.",
-      "tags": ["n8n", "Slack Bots", "Agents", "OpenAI API", "Gemini API"],
-      "accent": "cyan",
-      "image": ""
+      "tags": [
+        "n8n",
+        "Slack Bots",
+        "Agents",
+        "OpenAI API",
+        "Gemini API"
+      ],
+      "accent": "cyan"
     },
     {
       "number": "03",
       "title": "Reading Mentor",
       "type": "Conversational AI product experiment · 2026",
       "summary": "A prototype-to-product experiment that turns TXT and EPUB books into an interactive learning flow with voice interaction, contextual explanations, vocabulary memory and pronunciation feedback. Built as a testbed for rapid AI product development, tool calling, voice interfaces and learning workflows.",
-      "tags": ["Voice AI", "Product Prototype", "Tool Calling", "Gemini Live"],
-      "accent": "coral",
-      "image": ""
+      "tags": [
+        "Voice AI",
+        "Product Prototype",
+        "Tool Calling",
+        "Gemini Live"
+      ],
+      "accent": "coral"
     },
     {
       "number": "04",
       "title": "SWANA Cultural AI Models",
       "type": "Localized model development · Human-in-the-loop evaluation",
       "summary": "Work on culturally aware generative AI initiatives focused on SWANA-region representation, localized model behavior and bias reduction. Contributions include dataset preparation, model evaluation, prompt testing, culturally specific visual QA and human-in-the-loop review.",
-      "tags": ["Dataset Curation", "Model Evaluation", "Visual QA", "Responsible AI"],
-      "accent": "violet",
-      "image": ""
+      "tags": [
+        "Dataset Curation",
+        "Model Evaluation",
+        "Visual QA",
+        "Responsible AI"
+      ],
+      "accent": "violet"
     },
     {
       "number": "05",
       "title": "Metaheads AI",
       "type": "Independent applied AI studio concept",
       "summary": "An applied AI studio concept focused on turning business and creative workflows into practical AI systems: research, workflow mapping, prototype design, generative pipelines, automation logic and reusable solution patterns.",
-      "tags": ["AI Studio", "Business Workflows", "Prototyping", "Automation"],
-      "accent": "cyan",
-      "image": ""
+      "tags": [
+        "AI Studio",
+        "Business Workflows",
+        "Prototyping",
+        "Automation"
+      ],
+      "accent": "cyan"
     }
   ],
   "experienceSection": {
@@ -148,29 +169,25 @@
       "years": "2024 — now",
       "role": "AI Art Researcher · Generative AI Specialist",
       "company": "Glera Games",
-      "text": "Own full-cycle AI R&D and internal AI operations: researching use cases, designing datasets, training and evaluating models, building custom GPT and Gemini tools, prototyping automations, integrating workflows into production, documenting systems, onboarding users and supporting teams after delivery.",
-      "focus": "Current focus: custom diffusion models, internal AI assistants, workflow automation, AI-assisted prototyping, production support and practical adoption inside teams."
+      "text": "Own full-cycle AI R&D and internal AI operations: researching use cases, designing datasets, training and evaluating models, building custom GPT and Gemini tools, prototyping automations, integrating workflows into production, documenting systems, onboarding users and supporting teams after delivery."
     },
     {
       "years": "2023 — 2024",
       "role": "Technical Artist",
       "company": "Kwalee · Lisbon",
-      "text": "Led technical delivery for a Unity and INK product across content systems, UI, animation and VFX. Built C# and Python tools, improved cross-team workflows and maintained implementation documentation.",
-      "focus": ""
+      "text": "Led technical delivery for a Unity and INK product across content systems, UI, animation and VFX. Built C# and Python tools, improved cross-team workflows and maintained implementation documentation."
     },
     {
       "years": "2021 — 2023",
       "role": "Technical Artist",
       "company": "Playrix / VOKI Games · Kyiv",
-      "text": "Shipped two large-scale free-to-play products, automated production tasks, debugged and optimised complex content systems, led feature implementation and raised the department’s technical proficiency through training and mentorship.",
-      "focus": ""
+      "text": "Shipped two large-scale free-to-play products, automated production tasks, debugged and optimised complex content systems, led feature implementation and raised the department’s technical proficiency through training and mentorship."
     },
     {
       "years": "2020 — 2022",
       "role": "Freelance Lead Artist",
       "company": "Independent game projects",
-      "text": "Worked directly with small teams and varied clients, translating open-ended needs into practical technical and creative solutions. Led delivery from initial concept through implementation, iteration and production support.",
-      "focus": ""
+      "text": "Worked directly with small teams and varied clients, translating open-ended needs into practical technical and creative solutions. Led delivery from initial concept through implementation, iteration and production support."
     }
   ],
   "skillsSection": {
@@ -181,19 +198,58 @@
   "skills": [
     {
       "title": "AI Operations & Workflow Design",
-      "items": ["Use-case discovery", "Workflow mapping", "Internal AI tools", "Team enablement", "Documentation", "Onboarding", "Support + iteration", "Process automation"]
+      "items": [
+        "Use-case discovery",
+        "Workflow mapping",
+        "Internal AI tools",
+        "Team enablement",
+        "Documentation",
+        "Onboarding",
+        "Support + iteration",
+        "Process automation"
+      ]
     },
     {
       "title": "AI Prototyping & Automation",
-      "items": ["Codex", "Claude Code", "n8n", "Agents", "Slack bots", "OpenAI API", "Gemini API", "JavaScript", "Python"]
+      "items": [
+        "Codex",
+        "Claude Code",
+        "n8n",
+        "Agents",
+        "Slack bots",
+        "OpenAI API",
+        "Gemini API",
+        "JavaScript",
+        "Python"
+      ]
     },
     {
       "title": "Generative AI Systems",
-      "items": ["Stable Diffusion", "FLUX", "LoRA", "DreamBooth", "ControlNet", "ComfyUI", "Forge / Automatic1111", "Dataset curation", "Visual QA"]
+      "items": [
+        "Stable Diffusion",
+        "FLUX",
+        "LoRA",
+        "DreamBooth",
+        "ControlNet",
+        "ComfyUI",
+        "Forge / Automatic1111",
+        "Dataset curation",
+        "Visual QA"
+      ]
     },
     {
       "title": "Production Background",
-      "items": ["Unity", "C#", "INK", "Shaders", "VFX", "Spine", "Asset optimisation", "Git", "Jira / Asana / Confluence"]
+      "items": [
+        "Unity",
+        "C#",
+        "INK",
+        "Shaders",
+        "VFX",
+        "Spine",
+        "Asset optimisation",
+        "Git",
+        "Jira / Asana / Confluence"
+      ]
     }
   ],
   "education": {
@@ -209,10 +265,22 @@
   "languages": {
     "label": "Languages",
     "items": [
-      { "language": "Ukrainian", "level": "Native" },
-      { "language": "Russian", "level": "Native" },
-      { "language": "English", "level": "Professional" },
-      { "language": "Portuguese", "level": "Basic" }
+      {
+        "language": "Ukrainian",
+        "level": "Native"
+      },
+      {
+        "language": "Russian",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Professional"
+      },
+      {
+        "language": "Portuguese",
+        "level": "Basic"
+      }
     ]
   },
   "contact": {
