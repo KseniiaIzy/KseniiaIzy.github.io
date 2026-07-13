@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   title,
   description,
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
-  openGraph: { title, description, type: "website", url: "/", images: [{ url: "/og.png", width: 1792, height: 933, alt: title }] },
-  twitter: { card: "summary_large_image", title, description, images: ["/og.png"] },
+  openGraph: { title, description, type: "website", url: "/", images: [{ url: "/og-v2.png", width: 1731, height: 909, alt: title }] },
+  twitter: { card: "summary_large_image", title, description, images: ["/og-v2.png"] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

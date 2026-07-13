@@ -1,137 +1,199 @@
 {
   "seo": {
-    "title": "Ksenia Isidorova — Applied AI Specialist",
-    "description": "Applied AI specialist delivering full-cycle AI R&D: research, custom development, integration, testing, technical documentation and support for companies, small teams and cultural initiatives."
+    "title": "Ksenia Isidorova — Applied AI & AI Operations Specialist",
+    "description": "Applied AI and AI Operations specialist turning AI experiments into reliable systems for real teams — from discovery and prototyping to integration, onboarding and continuous improvement."
   },
   "navigation": {
     "work": "Work",
     "experience": "Experience",
-    "skills": "Skills",
+    "skills": "Capabilities",
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Applied AI specialist · End-to-end R&D",
+    "eyebrow": "Applied AI · AI Operations · Prototype-to-production",
     "firstName": "Ksenia",
     "lastName": "Isidorova",
-    "introBefore": "I research, design and deliver ",
-    "introStrong": "applied AI solutions",
-    "introAfter": "—from the first use-case hypothesis to development, integration, testing, documentation and long-term support.",
+    "introBefore": "I turn AI experiments into ",
+    "introStrong": "working systems for real teams",
+    "introAfter": " — from use-case discovery and rapid prototyping to integration, onboarding, support and continuous improvement.",
+    "toolLine": "Building with Codex, Claude Code, agents, APIs and automation workflows.",
     "primaryButton": "Explore my work",
     "cvButton": "Download CV",
     "cvFile": "/Ksenia-Isidorova-CV.pdf",
     "portrait": "/ksenia-isidorova.jpg",
     "portraitAlt": "Portrait of Ksenia Isidorova",
     "location": "Based in Europe",
-    "availability": "Open to ambitious AI work",
+    "availability": "Open to AI Operations roles",
     "scrollLabel": "Scroll to discover"
   },
   "profile": {
     "index": "01 / Profile",
     "kicker": "Broad AI expertise. Deep technical foundation.",
-    "headingBefore": "I turn complex AI capabilities into ",
-    "headingEmphasis": "useful, reliable",
-    "headingAfter": " products and systems.",
+    "headingBefore": "I make complex AI capabilities ",
+    "headingEmphasis": "useful, repeatable",
+    "headingAfter": " and ready for adoption.",
     "paragraphs": [
-      "I have delivered in very different environments: global game companies including Playrix, Kwalee and Glera Games; small independent teams; custom client work; and AI expertise for cultural heritage initiatives.",
-      "My role spans the complete solution lifecycle: problem framing, technology research, prototyping, development, integration, evaluation, testing, technical documentation, training and post-launch support."
+      "I work at the intersection of applied AI, product thinking and technical delivery. My background combines production experience in global game companies, custom AI work, cultural AI initiatives and internal workflow automation.",
+      "I take AI work beyond the experiment stage: framing the problem, choosing the right tools, building prototypes, testing with real users, documenting the process, setting up team workflows and improving the system after launch.",
+      "I am especially interested in AI operations: the practical layer where models, agents, automations, documentation and people have to work together."
     ]
   },
+  "impactSection": {
+    "index": "02 / Selected impact",
+    "headingBefore": "Evidence of ",
+    "headingEmphasis": "practical delivery"
+  },
+  "impact": [
+    {
+      "value": "Up to 70%",
+      "label": "less art production time through custom AI workflows"
+    },
+    {
+      "value": "43.8M+",
+      "label": "downloads for a large-scale product I contributed to"
+    },
+    {
+      "value": "+30%",
+      "label": "technical proficiency in a Tech Art team within four months"
+    },
+    {
+      "value": "End-to-end",
+      "label": "delivery from research and prototypes to onboarding and support"
+    }
+  ],
+  "approachSection": {
+    "index": "03 / How I work",
+    "headingBefore": "From idea to ",
+    "headingEmphasis": "adoption",
+    "description": "AI is not a one-off experiment. I care whether a tool solves a real problem, fits the workflow, can be repeated by the team and continues to improve after launch."
+  },
+  "approach": [
+    {
+      "title": "Discover",
+      "text": "Find real workflow bottlenecks and define where AI can create value."
+    },
+    {
+      "title": "Prototype",
+      "text": "Use Codex, Claude Code, APIs, n8n and existing AI tools to build fast working versions."
+    },
+    {
+      "title": "Integrate",
+      "text": "Connect tools to team workflows, document usage and support adoption."
+    },
+    {
+      "title": "Improve",
+      "text": "Evaluate output, collect feedback, debug issues and iterate after launch."
+    }
+  ],
   "workSection": {
-    "index": "02 / Selected work",
-    "headingBefore": "Applied AI in ",
-    "headingEmphasis": "different contexts",
-    "description": "From enterprise production to education and cultural heritage—each solution starts with the real problem, not a fashionable model."
+    "index": "04 / Selected work",
+    "headingBefore": "AI systems that teams can ",
+    "headingEmphasis": "actually use",
+    "description": "Production systems, internal tools and product experiments — designed around real workflows, not a fashionable model."
   },
   "projects": [
     {
       "number": "01",
-      "title": "Reading Mentor",
-      "type": "Applied conversational AI · 2026",
-      "summary": "An end-to-end multilingual voice product that turns any TXT or EPUB book into an interactive learning experience. The system follows reading progress, understands mixed-language speech, explains words in context, creates a personal vocabulary, and gives careful pronunciation feedback.",
-      "tags": ["Gemini Live", "Voice AI", "Tool calling", "Product development"],
+      "title": "Production AI Systems",
+      "type": "Enterprise R&D · Glera Games / Vizor Apps",
+      "summary": "Full-cycle AI systems for production teams: use-case research, dataset strategy, model training, evaluation, workflow design, environment setup, documentation, onboarding and post-delivery support. The focus is not only model quality, but whether the system can be used, repeated and improved by the team.",
+      "tags": ["AI Operations", "Model Training", "Workflow Design", "Team Enablement"],
       "accent": "violet",
       "image": ""
     },
     {
       "number": "02",
-      "title": "Metaheads AI",
-      "type": "Independent applied AI project",
-      "summary": "A custom AI initiative developed from exploration to a working system: defining the use case, selecting and testing approaches, shaping the product logic, and building repeatable workflows around generative models.",
-      "tags": ["AI R&D", "Custom solution", "Generative AI", "Workflow design"],
+      "title": "Internal AI Automation & Assistants",
+      "type": "Operational tools · Team workflows",
+      "summary": "Internal AI tools for operational teams: n8n workflows, multi-agent automations, Slack-integrated assistants and department-specific ChatGPT and Gemini bots for analytics, research, documentation and daily workflows. Built around practical team needs, fast prototyping, testing and iteration.",
+      "tags": ["n8n", "Slack Bots", "Agents", "OpenAI API", "Gemini API"],
       "accent": "cyan",
       "image": ""
     },
     {
       "number": "03",
-      "title": "Cultural Heritage AI",
-      "type": "AI expertise for cultural projects",
-      "summary": "Applied AI expertise for cultural heritage work, where source quality, context and responsible interpretation matter as much as model capability. The work connects research, structured data, human review and practical delivery for a specialist team.",
-      "tags": ["Research", "Knowledge workflows", "Human-in-the-loop", "Validation"],
+      "title": "Reading Mentor",
+      "type": "Conversational AI product experiment · 2026",
+      "summary": "A prototype-to-product experiment that turns TXT and EPUB books into an interactive learning flow with voice interaction, contextual explanations, vocabulary memory and pronunciation feedback. Built as a testbed for rapid AI product development, tool calling, voice interfaces and learning workflows.",
+      "tags": ["Voice AI", "Product Prototype", "Tool Calling", "Gemini Live"],
       "accent": "coral",
       "image": ""
     },
     {
       "number": "04",
-      "title": "Production AI Systems",
-      "type": "Enterprise R&D · Glera Games",
-      "summary": "Full-cycle AI solutions for production teams: technology research, dataset design, model training, evaluation, cloud workflows, integration guidance and ongoing support. Each solution is delivered with documentation, repeatable pipelines and clear ownership for the teams using it.",
-      "tags": ["Stable Diffusion", "LoRA", "Custom GPTs", "MLOps", "Documentation"],
+      "title": "SWANA Cultural AI Models",
+      "type": "Localized model development · Human-in-the-loop evaluation",
+      "summary": "Work on culturally aware generative AI initiatives focused on SWANA-region representation, localized model behavior and bias reduction. Contributions include dataset preparation, model evaluation, prompt testing, culturally specific visual QA and human-in-the-loop review.",
+      "tags": ["Dataset Curation", "Model Evaluation", "Visual QA", "Responsible AI"],
       "accent": "violet",
+      "image": ""
+    },
+    {
+      "number": "05",
+      "title": "Metaheads AI",
+      "type": "Independent applied AI studio concept",
+      "summary": "An applied AI studio concept focused on turning business and creative workflows into practical AI systems: research, workflow mapping, prototype design, generative pipelines, automation logic and reusable solution patterns.",
+      "tags": ["AI Studio", "Business Workflows", "Prototyping", "Automation"],
+      "accent": "cyan",
       "image": ""
     }
   ],
   "experienceSection": {
-    "index": "03 / Experience",
-    "headingBefore": "From global products to ",
-    "headingEmphasis": "small expert teams"
+    "index": "05 / Experience",
+    "headingBefore": "Ownership from research to ",
+    "headingEmphasis": "team adoption"
   },
   "experience": [
     {
       "years": "2024 — now",
       "role": "AI Art Researcher · Generative AI Specialist",
       "company": "Glera Games",
-      "text": "Owning full-cycle AI R&D: researching technologies and use cases, designing datasets, developing and evaluating models and custom GPT tools, integrating solutions into production, documenting them, and supporting teams after delivery."
+      "text": "Own full-cycle AI R&D and internal AI operations: researching use cases, designing datasets, training and evaluating models, building custom GPT and Gemini tools, prototyping automations, integrating workflows into production, documenting systems, onboarding users and supporting teams after delivery.",
+      "focus": "Current focus: custom diffusion models, internal AI assistants, workflow automation, AI-assisted prototyping, production support and practical adoption inside teams."
     },
     {
       "years": "2023 — 2024",
       "role": "Technical Artist",
       "company": "Kwalee · Lisbon",
-      "text": "Led technical delivery for a Unity and INK product across content systems, UI, animation and VFX. Built C# and Python tools, worked with programmers and artists, improved cross-team workflows, and maintained implementation documentation."
+      "text": "Led technical delivery for a Unity and INK product across content systems, UI, animation and VFX. Built C# and Python tools, improved cross-team workflows and maintained implementation documentation.",
+      "focus": ""
     },
     {
       "years": "2021 — 2023",
       "role": "Technical Artist",
       "company": "Playrix / VOKI Games · Kyiv",
-      "text": "Shipped two large-scale free-to-play products, automated production tasks, debugged and optimised complex content systems, led feature implementation, and raised the department’s technical proficiency through training and mentorship."
+      "text": "Shipped two large-scale free-to-play products, automated production tasks, debugged and optimised complex content systems, led feature implementation and raised the department’s technical proficiency through training and mentorship.",
+      "focus": ""
     },
     {
       "years": "2020 — 2022",
       "role": "Freelance Lead Artist",
       "company": "Independent game projects",
-      "text": "Worked directly with small teams and varied clients, translating open-ended needs into practical technical and creative solutions. Led delivery from initial concept through implementation, iteration and production support."
+      "text": "Worked directly with small teams and varied clients, translating open-ended needs into practical technical and creative solutions. Led delivery from initial concept through implementation, iteration and production support.",
+      "focus": ""
     }
   ],
   "skillsSection": {
-    "index": "04 / Capabilities",
-    "heading": "Full-cycle AI R&D.",
-    "headingEmphasis": "Technical depth."
+    "index": "06 / Capabilities",
+    "heading": "Operations first.",
+    "headingEmphasis": "Technical depth included."
   },
   "skills": [
     {
-      "title": "Applied AI & GenAI",
-      "items": ["LLM applications", "Conversational + Voice AI", "Multimodal workflows", "Stable Diffusion", "SDXL", "FLUX", "LoRA", "DreamBooth", "ControlNet"]
+      "title": "AI Operations & Workflow Design",
+      "items": ["Use-case discovery", "Workflow mapping", "Internal AI tools", "Team enablement", "Documentation", "Onboarding", "Support + iteration", "Process automation"]
     },
     {
-      "title": "Full-cycle AI R&D",
-      "items": ["Use-case discovery", "Technology research", "Solution architecture", "Rapid prototyping", "Evaluation + QA", "Integration", "Support + iteration", "Technical documentation"]
+      "title": "AI Prototyping & Automation",
+      "items": ["Codex", "Claude Code", "n8n", "Agents", "Slack bots", "OpenAI API", "Gemini API", "JavaScript", "Python"]
     },
     {
-      "title": "Engineering & Operations",
-      "items": ["Python", "C#", "API integration", "Custom GPTs", "TensorBoard", "RunPod", "S3 + rclone", "Git", "Automation", "Data pipelines"]
+      "title": "Generative AI Systems",
+      "items": ["Stable Diffusion", "FLUX", "LoRA", "DreamBooth", "ControlNet", "ComfyUI", "Forge / Automatic1111", "Dataset curation", "Visual QA"]
     },
     {
-      "title": "Product & Technical Art",
-      "items": ["Unity", "Shaders", "VFX", "INK", "UI/UX", "Asset optimisation", "Photoshop", "Illustrator", "After Effects", "Blender"]
+      "title": "Production Background",
+      "items": ["Unity", "C#", "INK", "Shaders", "VFX", "Spine", "Asset optimisation", "Git", "Jira / Asana / Confluence"]
     }
   ],
   "education": {
@@ -154,9 +216,9 @@
     ]
   },
   "contact": {
-    "eyebrow": "Research · Build · Integrate · Support",
-    "headingLine": "Need an AI solution",
-    "headingBefore": "that works? ",
+    "eyebrow": "Research · Prototype · Integrate · Improve",
+    "headingLine": "Building practical AI systems",
+    "headingBefore": "for teams and operations. ",
     "headingEmphasis": "Let’s talk.",
     "email": "kseniia.is.upark@gmail.com",
     "location": "Odesa, Ukraine / Lisbon, Portugal",

@@ -17,7 +17,25 @@ export default function Home() {
   }, []);
 
   const closeMenu = () => setMenuOpen(false);
-  const { navigation, hero, profile, workSection, projects, experienceSection, experience, skillsSection, skills, education, furtherLearning, languages, contact } = content;
+  const {
+    navigation,
+    hero,
+    profile,
+    impactSection,
+    impact,
+    approachSection,
+    approach,
+    workSection,
+    projects,
+    experienceSection,
+    experience,
+    skillsSection,
+    skills,
+    education,
+    furtherLearning,
+    languages,
+    contact,
+  } = content;
 
   return (
     <main>
@@ -45,6 +63,7 @@ export default function Home() {
           <p className="hero-intro">
             {hero.introBefore}<strong>{hero.introStrong}</strong>{hero.introAfter}
           </p>
+          <p className="hero-tools">{hero.toolLine}</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#work">{hero.primaryButton} <span>↘</span></a>
             <a className="button button-ghost" href={hero.cvFile} download>{hero.cvButton}</a>
@@ -73,6 +92,38 @@ export default function Home() {
           <div className="profile-grid">
             {profile.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           </div>
+        </div>
+      </section>
+
+      <section className="impact section-shell" aria-labelledby="impact-heading">
+        <div className="section-heading compact" data-reveal>
+          <div className="section-index">{impactSection.index}</div>
+          <h2 id="impact-heading">{impactSection.headingBefore}<em>{impactSection.headingEmphasis}</em></h2>
+        </div>
+        <div className="impact-grid">
+          {impact.map((item) => (
+            <article className="impact-card" key={item.value} data-reveal>
+              <strong>{item.value}</strong>
+              <p>{item.label}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="approach section-shell" aria-labelledby="approach-heading">
+        <div className="section-heading" data-reveal>
+          <div className="section-index">{approachSection.index}</div>
+          <h2 id="approach-heading">{approachSection.headingBefore}<em>{approachSection.headingEmphasis}</em></h2>
+          <p>{approachSection.description}</p>
+        </div>
+        <div className="approach-grid">
+          {approach.map((item, index) => (
+            <article className="approach-card" key={item.title} data-reveal>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <h3>{item.title}</h3>
+              <p>{item.text}</p>
+            </article>
+          ))}
         </div>
       </section>
 
@@ -109,7 +160,10 @@ export default function Home() {
             <article className="timeline-item" key={`${item.company}-${item.years}`} data-reveal>
               <div className="timeline-years">{item.years}</div>
               <div className="timeline-role"><h3>{item.role}</h3><p>{item.company}</p></div>
-              <p className="timeline-copy">{item.text}</p>
+              <div className="timeline-copy">
+                <p>{item.text}</p>
+                {item.focus && <p className="timeline-focus">{item.focus}</p>}
+              </div>
             </article>
           ))}
         </div>
