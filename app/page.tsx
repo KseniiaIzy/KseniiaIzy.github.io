@@ -66,7 +66,7 @@ export default function Home() {
           <p className="hero-tools">{hero.toolLine}</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#work">{hero.primaryButton} <span>↘</span></a>
-            <a className="button button-ghost" href={hero.cvFile} download>{hero.cvButton}</a>
+            <a className="button button-ghost" href={hero.cvFile} download="Ksenia-Isidorova-CV.pdf" type="application/pdf">{hero.cvButton}</a>
           </div>
         </div>
 
