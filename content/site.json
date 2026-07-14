@@ -125,21 +125,6 @@
       "image": "/n8nautomationagenticworkflow.png"
     },
     {
-      "number": "03",
-      "title": "Reading Mentor",
-      "type": "Conversational AI product experiment · 2026",
-      "summary": "A prototype-to-product experiment that turns TXT and EPUB books into an interactive learning flow with voice interaction, contextual explanations, vocabulary memory and pronunciation feedback. Built as a testbed for rapid AI product development, tool calling, voice interfaces and learning workflows.",
-      "tags": [
-        "Educational AI",
-        "Reading mentor",
-        "Voice AI",
-        "Personal vocabulary",
-        "Product Prototype",
-        "Gemini Live"
-      ],
-      "accent": "coral"
-    },
-    {
       "number": "04",
       "title": "SWANA Cultural AI Models · Qareeb / ARK Knowledge Networks",
       "type": "Localized model development · Human-in-the-loop evaluation",
@@ -157,20 +142,38 @@
     {
       "number": "05",
       "title": "Metaheads AI",
-      "type": "Independent applied AI studio concept",
-      "summary": "An applied AI studio concept focused on turning business and creative workflows into practical AI systems: research, workflow mapping, prototype design, generative pipelines, automation logic and reusable solution patterns.",
+      "type": "Independent applied AI studio",
+      "summary": "My freshly made applied AI studio with a small expert team, focused on turning business and professionals' workflows into practical reliable AI systems.",
       "tags": [
-        "AI Studio",
+        "Personal AI Studio",
+        "AI Research and Engineering",
         "Business Workflows",
+        "Automation",
         "Prototyping",
-        "Automation"
+        "Generative Pipelines"
       ],
       "accent": "cyan"
+    },
+    {
+      "number": "03",
+      "title": "Reading Mentor",
+      "type": "Conversational AI Project · 2026",
+      "summary": "My prototype-to-product experiment that turns TXT and EPUB books into an interactive learning flow with voice interaction, contextual explanations, vocabulary memory and pronunciation feedback. Started as a personal tool for English reading practice, now - official Metaheads AI Product. Usable app in pre-launch stage. Great case of rapid AI product development, fast AI-powered prototyping and scaling potential.",
+      "tags": [
+        "Educational AI",
+        "Reading mentor",
+        "Voice AI",
+        "Personal vocabulary",
+        "Product Prototype",
+        "Gemini Live"
+      ],
+      "accent": "coral",
+      "image": "/chromemvndgcszto.png"
     }
   ],
   "experienceSection": {
     "index": "05 / Experience",
-    "headingBefore": "Ownership from research to ",
+    "headingBefore": "Leading AI projects from research to ",
     "headingEmphasis": "implementation and integraion"
   },
   "experience": [
