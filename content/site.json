@@ -13,9 +13,9 @@
     "eyebrow": "Applied AI · AI Operations · Prototype-to-production",
     "firstName": "Ksenia",
     "lastName": "Isidorova",
-    "introBefore": "I build custom AI solutions and integrate them into",
-    "introStrong": "the real workflows",
-    "introAfter": " — from use-case discovery and rapid prototyping to integration, onboarding, support and continuous improvement.",
+    "introBefore": "I help teams turn AI experiments into ",
+    "introStrong": "reliable internal tools, agents, chat-bots, automation workflows and production-ready systems ",
+    "introAfter": "— from problem framing and prototyping to integration, documentation and post-launch support.",
     "toolLine": "Building with Codex, Claude Code, agents, APIs and automation workflows.",
     "primaryButton": "Explore my work",
     "cvButton": "Download CV",
@@ -23,7 +23,7 @@
     "portrait": "/ksenia-isidorova.jpg",
     "portraitAlt": "Portrait of Ksenia Isidorova",
     "location": "Based in Europe",
-    "availability": "Open to AI Operations roles",
+    "availability": "Open to applied AI Research / Operations roles",
     "scrollLabel": "Scroll to discover"
   },
   "profile": {
@@ -33,9 +33,9 @@
     "headingEmphasis": "smart, useful, user-friendly,",
     "headingAfter": " and ready for adoption.",
     "paragraphs": [
-      "I work at the intersection of applied AI, product thinking and technical delivery. My background combines production experience in global game companies, SMEs and AI startups.",
-      "I take AI work beyond the experiment stage: Performing an AI audit, framing the problems, discovering actual solutions, building prototypes and final builds, testing with real workflows, documenting the process, setting up team pipelines and guides and testing&improving the system after launch.",
-      "I am especially interested in complex AI systems that help professionals reducing their time spent on repetitive, boring day-to-day tasks and make more room for creative work."
+      "I work at the intersection of applied AI, creative thinking, and engineering. My background combines production experience in global gaming companies, SMEs, and AI startups. I’m especially interested in AI tools designed around real user needs and workflows — systems that reduce repetitive work, create more room for creative thinking, and support professional growth. I’m equally fascinated by building personal AI tools for learning, self-development, and everyday practices, including a personal mindfulness mentor and an AI-assisted reading mentor for language learning, reading aloud, and deeper engagement with books.",
+      "I currently work as an AI Researcher and Generative AI Consultant, with a broader practice across AI operations, creative AI systems and pipelines, cultural AI, internal automation tooling, and AI-assisted product development. I use Codex, Claude, Gemini, Custom Gemini Gems and GPTs, Python, JavaScript, Node.js, CSS, Git, and agentic development workflows to generate ideas, build testable prototypes, debug, compare approaches, and turn the strongest concepts into working systems. I’m hands-on in early-stage development and collaborate with engineers and developers to bring the strongest prototypes into reliable, production-ready solutions.",
+      "I lead AI product development across the full lifecycle: from workflow audits, use-case research, and problem framing to product roadmaps, technical setup, prototyping, testing, and production delivery. I define the project structure, architecture, infrastructure, and resources needed to move from idea to working product, then integrate AI tools into real team workflows through documentation, onboarding, feedback loops, and post-launch support."
     ]
   },
   "impactSection": {
@@ -89,35 +89,40 @@
     "index": "04 / Selected work",
     "headingBefore": "AI systems that teams can actually use",
     "headingEmphasis": "in their real workflows",
-    "description": "Multi-agentic systems, internal chat-bots and tools — designed around real workflows and set up for real users, with post-integration support and personalized usage guides&presentations."
+    "description": "Multi-agentic systems, internal chat-bots and automation tools — designed around real workflows and set up for real users, with post-integration support and personalized usage guides&documentation."
   },
   "projects": [
     {
       "number": "01",
       "title": "Game development Applied AI solutions",
-      "type": "Enterprise R&D · Glera Games / Vizor Apps",
-      "summary": "Full-cycle AI systems for production teams: use-case research, dataset strategy, model training, evaluation, workflow design, environment setup, documentation, onboarding and post-delivery support. The focus is not only model quality, but whether the system can be used, repeated and improved by the team.",
+      "type": "Art Production R&D · Glera Games / Vizor Apps ",
+      "summary": "Full-cycle AI systems for production teams: use-case research, implementation strategy, dataset curation, model training, testing and evaluation, environment setup, integration, documentation, user onboarding and post-delivery support. The focus is not only on model or AI tool quality, but on whether the system can be comfortably and consistently used by the team, embedded into regular workflows, and significantly reduce production time.",
       "tags": [
-        "AI Operations",
-        "Model Training",
+        "Art AI Research",
+        "Image Model Training",
+        "ComfyUI implementation",
         "Workflow Design",
-        "Team Enablement"
+        "Team onboarding&mentoring"
       ],
-      "accent": "violet"
+      "accent": "violet",
+      "image": "/controlnetcanny.png"
     },
     {
       "number": "02",
-      "title": "Internal AI Automation & Assistants",
+      "title": "Internal AI Automation & Assistants · Glera Games / Vizor Apps ",
       "type": "Operational tools · Team workflows",
       "summary": "Internal AI tools for operational teams: n8n workflows, multi-agent automations, Slack-integrated assistants and department-specific ChatGPT and Gemini bots for analytics, research, documentation and daily workflows. Built around practical team needs, fast prototyping, testing and iteration.",
       "tags": [
-        "n8n",
+        "Prompt Engineering templates",
+        "LLM Guides and pipelines for art professionals",
+        "n8n multi-agent systems",
         "Slack Bots",
-        "Agents",
-        "OpenAI API",
-        "Gemini API"
+        "Data Analytics assistant bots",
+        "OpenAI API / CustomGPTs",
+        "Gemini API / Custom Gems"
       ],
-      "accent": "cyan"
+      "accent": "cyan",
+      "image": "/n8nautomationagenticworkflow.png"
     },
     {
       "number": "03",
@@ -125,25 +130,29 @@
       "type": "Conversational AI product experiment · 2026",
       "summary": "A prototype-to-product experiment that turns TXT and EPUB books into an interactive learning flow with voice interaction, contextual explanations, vocabulary memory and pronunciation feedback. Built as a testbed for rapid AI product development, tool calling, voice interfaces and learning workflows.",
       "tags": [
+        "Educational AI",
+        "Reading mentor",
         "Voice AI",
+        "Personal vocabulary",
         "Product Prototype",
-        "Tool Calling",
         "Gemini Live"
       ],
       "accent": "coral"
     },
     {
       "number": "04",
-      "title": "SWANA Cultural AI Models",
+      "title": "SWANA Cultural AI Models · Qareeb / ARK Knowledge Networks",
       "type": "Localized model development · Human-in-the-loop evaluation",
-      "summary": "Work on culturally aware generative AI initiatives focused on SWANA-region representation, localized model behavior and bias reduction. Contributions include dataset preparation, model evaluation, prompt testing, culturally specific visual QA and human-in-the-loop review.",
+      "summary": "Work on culturally aware generative AI initiatives focused on SWANA-region representation, localized model behavior and bias reduction. Contributions include dataset curation, model training and evaluation, prompt template engineering and integration in multi-tool AI workflows.",
       "tags": [
         "Dataset Curation",
+        "Model Training",
         "Model Evaluation",
         "Visual QA",
-        "Responsible AI"
+        "Content production AI pipeline development"
       ],
-      "accent": "violet"
+      "accent": "violet",
+      "image": "/loratraining.png"
     },
     {
       "number": "05",
@@ -162,13 +171,13 @@
   "experienceSection": {
     "index": "05 / Experience",
     "headingBefore": "Ownership from research to ",
-    "headingEmphasis": "team adoption"
+    "headingEmphasis": "implementation and integraion"
   },
   "experience": [
     {
       "years": "2024 — now",
       "role": "AI Art Researcher · Generative AI Specialist",
-      "company": "Glera Games",
+      "company": "Glera Games / Vizor Apps ",
       "text": "Own full-cycle AI R&D and internal AI operations: researching use cases, designing datasets, training and evaluating models, building custom GPT and Gemini tools, prototyping automations, integrating workflows into production, documenting systems, onboarding users and supporting teams after delivery."
     },
     {
@@ -199,14 +208,16 @@
     {
       "title": "AI Operations & Workflow Design",
       "items": [
-        "Use-case discovery",
-        "Workflow mapping",
+        "AI opportunity audit",
+        "AI research",
+        "Roadmapping",
         "Internal AI tools",
         "Team enablement",
+        "Internal data bases",
+        "Process automation",
         "Documentation",
         "Onboarding",
-        "Support + iteration",
-        "Process automation"
+        "Team support and mentoring"
       ]
     },
     {
@@ -215,30 +226,39 @@
         "Codex",
         "Claude Code",
         "n8n",
-        "Agents",
-        "Slack bots",
+        "Task-oriented agents",
+        "Chat bots (Slack, Telegram, etc.)",
         "OpenAI API",
         "Gemini API",
+        "Python",
+        "C++",
         "JavaScript",
-        "Python"
+        "CSS",
+        "Node.js"
       ]
     },
     {
       "title": "Generative AI Systems",
       "items": [
+        "Data Analytics",
+        "Dataset curation",
         "Stable Diffusion",
         "FLUX",
-        "LoRA",
+        "LoRA training",
         "DreamBooth",
         "ControlNet",
         "ComfyUI",
         "Forge / Automatic1111",
-        "Dataset curation",
-        "Visual QA"
+        "Visual Evaluation",
+        "Kohya_SS",
+        "One trainer",
+        "AI Toolkit",
+        "PyTorch",
+        "Tensorflow"
       ]
     },
     {
-      "title": "Production Background",
+      "title": "Game Development Background",
       "items": [
         "Unity",
         "C#",
@@ -248,7 +268,8 @@
         "Spine",
         "Asset optimisation",
         "Git",
-        "Jira / Asana / Confluence"
+        "Jira / Asana / Confluence",
+        "Godot"
       ]
     }
   ],
